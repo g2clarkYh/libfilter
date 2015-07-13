@@ -1,5 +1,6 @@
 AC_INIT(libfilter, 0.0.1, [henry.leinhos@gmail.com])
 AC_CONFIG_SRCDIR(filter.c)
+AC_CONFIG_MACRO_DIR([m4])
 AM_INIT_AUTOMAKE
 
 AC_PROG_CC
