@@ -1,0 +1,11 @@
+AC_INIT(libfilter, 0.0.1, [henry.leinhos@gmail.com])
+AC_CONFIG_SRCDIR(filter.c)
+AM_INIT_AUTOMAKE
+
+AC_PROG_CC
+AC_PROG_CXX
+AC_PROG_LIBTOOL
+AC_SUBST(LIBTOOL_DEPS)
+
+AC_CONFIG_FILES([Makefile])
+AC_OUTPUT
